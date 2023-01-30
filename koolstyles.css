@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color:white;
+    font-family: adultswim;
+    text-align: center;
+}
+@font-face {
+    font-family: adultswim;
+    src: url(font/Adult-Swim-Font.ttf);
+}
+.header{
+    position: sticky;
+    text-align: center;
+    line-height: 10px;
+}
+video{
+    width: 400px;
+}
+a{
+    color:gainsboro;
+}
+#navwarn span{
+    font-size: 20px;
+    cursor:pointer;
+}
+#nav{
+    cursor: pointer;
+}
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+  }
+  
+  .rainbow {
+    animation: colorRotate .5s linear 0s infinite;
+  }
+@keyframes colorRotate{
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+}
